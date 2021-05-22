@@ -1,56 +1,58 @@
-# SopranosMemoryGame
+# Sopranos Memory Game
 
 Developed and designed as part of Milestone Project 2: Interactive Frontend Development for Code Institute
 
 # Table of Contents
 
-1. Overview
+## 1. Overview
 
-2. User Experience
-⋅⋅* User Stories
+## 2. User Experience
+
+### User Stories
+
 - First time Visitor Goals
 - Returning Visitor Goals
 - Frequent Visitor Goals 
 
-3. Design 
-⋅⋅* Colour Scheme
+## 3. Design 
+ - Colour Scheme
 
 
-⋅⋅* Fonts
+- Fonts
 
 
-⋅⋅* Imagery
+- Imagery
 
 
-4. Wireframes
+## 4. Wireframes
 
-5. Features
+## 5. Features
 
-6. Languages Used 
+## 6. Languages Used 
 
 + HTML
 + CSS
 + Javascript
 
-⋅⋅* Frameworks, Libraries and Tools
++ Frameworks, Libraries and Tools
 
 - 
 -  
 -  
 
-7. Testing
+## 7. Testing
 
-⋅⋅* Further Testing
++ Further Testing
 
-⋅⋅* Known Bugs
++ Known Bugs
 
-8. Deployment
+## 8. Deployment
 
-### GitHub pages
+- GitHub pages
 
-9. Credits
+## 9. Credits
 
-⋅⋅* Code
-⋅⋅* Media
-⋅⋅* Content
-⋅⋅* Acknowledgements
++ Code
++ Media
++ Content
++ Acknowledgements
