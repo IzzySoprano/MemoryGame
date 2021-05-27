@@ -3,3 +3,30 @@ body {
     padding: 0;
     background-color: black;
 }
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.row {
+    text-align: center;
+}
+
+.card:hover {
+    border: 1px solid;
+}
+
+.Characters {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
