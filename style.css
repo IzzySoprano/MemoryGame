@@ -25,6 +25,7 @@ body {
   top: 100px;
   left:250px;
   transform: scale(1);
+  transform-style: preserve-3d;
 }
 
 .soprano-card-inner {
@@ -34,7 +35,7 @@ body {
   transform-style: preserve-3d;
 }
 
-/* .soprano-card:hover .soprano-card-inner {
+/* .soprano-card:hover, .soprano-card-inner {
   transform: rotateY(180deg);
 } */
 
