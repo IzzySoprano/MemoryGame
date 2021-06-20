@@ -1,8 +1,8 @@
-// Flipping cards
+// Flipping the cards 
 
-const cards = document.querySelectorAll('.soprano-card');
+const cards = document.querySelectorAll(".Soprano-card");
 
-function flipCard () {
-    this.querySelectorAll.toggle(".soprano-card");
+function flipCard() {
+  this.classList.toggle("flip");
 }
-cards.forEach((soprano-game) =>); card.addEventListener("click", flipCard);
+cards.forEach((card) => card.addEventListener("click", flipCard));
