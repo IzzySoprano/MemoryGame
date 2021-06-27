@@ -69,7 +69,7 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 
 ## Frameworks, Libraries and Tools
 
-- 
+- Font Awesome
 -  
 -  
 
@@ -86,11 +86,17 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 ## Credits
 
 + Code
+-https://dev.to/mugas/flip-cards-with-javascript-2ad0
+
 + Media
-+ Content
+- Build a Music Player | Vanilla Javascript https://www.youtube.com/watch?v=QTHRWGn_sJw&ab_channel=TraversyMedia
+
++ Resources
+-Javascript and JQuery
+
 + Acknowledgements
 
 My mentor [Narender Singh]
 Tutor [John]
 
--https://dev.to/mugas/flip-cards-with-javascript-2ad0
+
