@@ -22,14 +22,14 @@ As a first time visitor, I want to be familiar with the character names
 
 - Returning Goals
 
-As a returning visitor, I would like to play a game that challenges me
-As a returning visitor, I would like to improve my score 
+As a returning visitor, I would like to play a game that challenges my memory 
 
 - Developer Goals
 
 As a developer, I would like to create a simple, logical memory game inspired by the The Sopranos that anyone can play.
 As a developer, I would like to create an interactive game using HTML, CSS and Javascript.
-As a developer, I would like to create famliarity with the Sopranos cast for users, whether or not they've seen the show
+As a developer, I would like to create famliarity with the Sopranos cast for users.
+As a developer, I would like to create an interactive music player 
 
 ## Design 
  - Colour Scheme
@@ -39,13 +39,11 @@ As a developer, I would like to create famliarity with the Sopranos cast for use
 
  For the background, the colour will be black 
  
- It's very important that the colour scheme of the game has the same feel of the TV show. The site will consist of one page
+ It's important that the colour scheme of the game has the same feel of the TV show. The site will consist of one page
 
 
 - Fonts
 As the site won't hold much text, the only text of the site will be of the main title, **The Sopranos**.
-I have used [Font Meme] (https://fontmeme.com/sopranos-font/) to generate the text and implement it to the site.  
-
 
 - Audio 
 The site will have the intro song added to the game. 
@@ -98,5 +96,6 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 
 My mentor [Narender Singh]
 Tutor [John]
+Slack Community 
 
 
