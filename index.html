@@ -7,382 +7,465 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sopranos Memory Game</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- <audio id="audio-controls" controls autoplay>
-            <button id="play"> Play</button>
-            <source src="assets/Audio/The Sopranos theme song - Woke up this morning.mp3" alt="audio/mp3">
-        </audio>  -->
+    <div class="music-container play">
+        <div class="music-info">
+            <h4 id="Title">Woke Up This Morning</h4>
+            <div class="progress-container">
+                <div class="progress">
 
-        <!-- Soprano-Game -->
+                </div>
+            </div>
+        </div>
+
+        <audio src="assets/Audio/woke-up-this-morning.mp3" id="audio" alt="audio/mp3"></audio>
+
+        <div class="img-container">
+            <img src="assets/img/Sopranos-Title.jpg" alt="music-cover" id="cover">
+        </div>
+
+        <div class="navigation">
+            <button id="play" class="action-btn">
+                <i class="fas fa-play fa-2x"></i>
+            </button>
+            <button id="pause" class="action-btn">
+                <i class="far fa-pause-circle fa-2x"></i>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- <ul>
+        <li>
+            Adriana La Cerva
+        </li>
+        <li>
+            Anthony Soprano Jr
+        </li>
+        <li>
+            Artie Buccco
+        </li>
+        <li>
+            Bobby Baccalieri
+        </li>
+        <li>
+            Carmela Soprano
+        </li>
+        <li>
+            Carmine Lupertazzi
+        </li>
+        <li>
+            Christopher Moltisanti
+        </li>
+        <li>
+            Corrado Soprano
+        </li>
+        <li>
+            Dr Elliot Kupferberg
+        </li>
+        <li>
+            Dr-Jennifer-Melfi
+        </li>
+        <li>
+            Gloria Trillo
+        </li>
+        <li>
+            Hesh Rabkin
+        </li>
+        <li>
+            Janice Soprano
+        </li>
+        <li>
+            Johnny Sacramoni
+        </li>
+        <li>
+            Livia Soprano
+        </li>
+        <li>
+            Meadow Soprano
+        </li>
+        <li>
+            Paulie Walnut
+        </li>
+        <li>
+            SalBonpensiero
+        </li>
+        <li>
+            Silvio-Dante
+        </li>
+        <li>
+            Tony-Soprano
+        </li>
+    </ul> -->
+
     <section class="Soprano-game">
-        <!-- Soprano-card -->
         <div class="Soprano-card">
-            <!-- Back-card -->
-                <div class="Back-card">
-                    <!-- Soprano-image -->
-                    <img class="Soprano_image" src="assets/img/Characters/Tony-Soprano.jpg" alt="Characters">
-                </div>
-                <!-- Front-Card -->
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Tony-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Adriana-La-Cerva.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Adriana-La-Cerva.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Anthony-Soprano-Jr.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Anthony-Soprano-Jr.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Artie-Bucco.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Artie-Bucco.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Bobby-Baccalieri.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Bobby-Baccalieri.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Camela-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Camela-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Carmine-Lupertazzi.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Carmine-Lupertazzi.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Christopher-Moltisanti.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Christopher-Moltisanti.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Corrado-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Corrado-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Dr-Elliot-Kupferberg.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Dr-Elliot-Kupferberg.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Dr-Jennifer-Melfi.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Dr-Jennifer-Melfi.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Gloria-Trillo.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Gloria-Trillo.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Hesh-Rabkin.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Hesh-Rabkin.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Janice-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Janice-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Johnny-Sacramoni.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Johnny-Sacramoni.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Livia-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Livia-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Meadow-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Meadow-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Paulie-Walnut.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Paulie-Walnut.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Sal-Bonpensiero.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Sal-Bonpensiero.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Silvio-Dante.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Silvio-Dante.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Tony-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Tony-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Adriana-La-Cerva.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Adriana-La-Cerva.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Anthony-Soprano-Jr.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Anthony-Soprano-Jr.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Artie-Bucco.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Artie-Bucco.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Bobby-Baccalieri.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Bobby-Baccalieri.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Camela-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Camela-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Carmine-Lupertazzi.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Carmine-Lupertazzi.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Christopher-Moltisanti.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Christopher-Moltisanti.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Corrado-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Corrado-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Dr-Elliot-Kupferberg.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Dr-Elliot-Kupferberg.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Dr-Jennifer-Melfi.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Dr-Jennifer-Melfi.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Gloria-Trillo.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Gloria-Trillo.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Hesh-Rabkin.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Hesh-Rabkin.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Janice-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Janice-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Johnny-Sacramoni.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Johnny-Sacramoni.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Livia-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Livia-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Meadow-Soprano.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Meadow-Soprano.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Paulie-Walnut.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Paulie-Walnut.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Sal-Bonpensiero.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Sal-Bonpensiero.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
+
         <div class="Soprano-card">
-                <div class="Back-card">
-                    <img class="Soprano_image" src="assets/img/Characters/Silvio-Dante.jpg" alt="Characters">
-                </div>
-                <div class="front-card">
-                    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-                </div>
+            <div class="Back-card">
+                <img class="Soprano_image" src="assets/img/Characters/Silvio-Dante.jpg" alt="Characters">
+            </div>
+            <div class="front-card">
+                <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
             </div>
         </div>
-        </section>
+
+    </section>
 
     <script src="script.js"> </script>
 </body>
+
 </html>
