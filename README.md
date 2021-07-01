@@ -26,16 +26,16 @@ As a returning visitor, I would like to play a game that challenges my memory
 
 - Developer Goals
 
-As a developer, I would like to create a simple, logical memory game inspired by the The Sopranos that anyone can play.
-As a developer, I would like to create an interactive game using HTML, CSS and Javascript.
-As a developer, I would like to create famliarity with the Sopranos cast for users.
-As a developer, I would like to create an interactive music player 
++ As a developer, I would like to create a simple, logical memory game inspired by the The Sopranos that anyone can play.
++ As a developer, I would like to create an interactive game using HTML, CSS and Javascript.
++ As a developer, I would like to create famliarity with the Sopranos cast for users.
++ As a developer, I would like to create an interactive music player 
 
 ## Design 
  - Colour Scheme
 
- It's important for the game/site to follow the the color scheme from the show in order to create a feel that the game is inspired by the TV Show.
- The colour scheme will follow the theme of the TV show. The three main colours of the TV show are black, white and red. The title 'The Sopranos' is shown in a white or red colour depending on the source. I have decided to go for the white colour to keep the site simple. 
+ + It's important for the game/site to follow the the color scheme from the show in order to create a feel that the game is inspired by the TV Show.
+ + The colour scheme will follow the theme of the TV show. The three main colours of the TV show are black, white and red. The title 'The Sopranos' is shown in a white or red colour depending on the source. I have decided to go for the white colour to keep the site simple. 
 
  For the background, the colour will be black 
  
@@ -43,7 +43,7 @@ As a developer, I would like to create an interactive music player
 
 
 - Fonts
-As the site won't hold much text, the only text of the site will be of the main title, **The Sopranos**.
+Google Fonts (Big Shoulder Stencil)
 
 - Audio 
 The site will have the intro song added to the game. 
@@ -55,9 +55,14 @@ The images of the game will be characters from the TV show.
 All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-sopranos/cast-and-crew)
 
 
+
+
 ## Wireframes
 
 ## Features
+
++ Interactive card matching game
++ Music player
 
 ## Languages Used 
 
@@ -68,7 +73,7 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 ## Frameworks, Libraries and Tools
 
 - Font Awesome
--  
+- Google Fonts
 -  
 
 ## Testing
@@ -85,17 +90,19 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 
 + Code
 -https://dev.to/mugas/flip-cards-with-javascript-2ad0
+-https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j#content-3 
 
 + Media
 - Build a Music Player | Vanilla Javascript https://www.youtube.com/watch?v=QTHRWGn_sJw&ab_channel=TraversyMedia
 
 + Resources
--Javascript and JQuery
+-Javascript and JQuery by Jon Duckett
 
 + Acknowledgements
 
 My mentor [Narender Singh]
 Tutor [John]
 Slack Community 
+Stack overflow
 
 
