@@ -1,63 +1,72 @@
 // Flipping the cards
 
-let cards = document.querySelectorAll(".Soprano-card");
-
 function flipCard() {
   this.classList.toggle("flip");
 }
-cards.forEach((card) => card.addEventListener("click", flipCard));
 
 // Matching the cards
 
 let cardsArray = [
   { name: "tony", img: "Tony-Soprano.jpg" },
-
+  { name: "tony", img: "Tony-Soprano.jpg" },
+  
   { name: "adriana-la-cerva", img: "Adriana-La-Cerva.jpg" },
-
+  { name: "adriana-la-cerva", img: "Adriana-La-Cerva.jpg" },
+  
   { name: "anthony-soprano-jr", img: "Anthony-Soprano-Jr.jpg" },
-
+  { name: "anthony-soprano-jr", img: "Anthony-Soprano-Jr.jpg" },
+  
   { name: "artie-bucco", img: "Artie-Bucco.jpg" },
-
+  { name: "artie-bucco", img: "Artie-Bucco.jpg" },
+  
   { name: "bobby-baccalieri", img: "Bobby-Baccalieri.jpg" },
-
+  { name: "bobby-baccalieri", img: "Bobby-Baccalieri.jpg" },
+  
   { name: "camela-soprano", img: "Camela-Soprano.jpg" },
-
+  { name: "camela-soprano", img: "Camela-Soprano.jpg" },
+  
   { name: "carmine-lupertazzi", img: "Carmine-Lupertazzi.jpg" },
-
+  { name: "carmine-lupertazzi", img: "Carmine-Lupertazzi.jpg" },
+  
   { name: "christopher-moltisanti", img: "Christopher-Moltisanti.jpg" },
-
+  { name: "christopher-moltisanti", img: "Christopher-Moltisanti.jpg" },
+  
   { name: "corrado-soprano", img: "Corrado-Soprano.jpg" },
-
+  { name: "corrado-soprano", img: "Corrado-Soprano.jpg" },
+  
   { name: "dr-elliot-kupferberg", img: "Dr-Elliot-Kupferberg.jpg" },
-
+  { name: "dr-elliot-kupferberg", img: "Dr-Elliot-Kupferberg.jpg" },
+  
   { name: "dr-jennifer-melfi", img: "Dr-Jennifer-Melfi.jpg" },
-
+  { name: "dr-jennifer-melfi", img: "Dr-Jennifer-Melfi.jpg" },
+  
   { name: "gloria-trillo", img: "Gloria-Trillo.jpg" },
-
+  { name: "gloria-trillo", img: "Gloria-Trillo.jpg" },
+  
   { name: "hesh-rabkin", img: "Hesh-Rabkin.jpg" },
-
+  { name: "hesh-rabkin", img: "Hesh-Rabkin.jpg" },
+  
   { name: "janice-soprano", img: "Janice-Soprano.jpg" },
-
+  { name: "janice-soprano", img: "Janice-Soprano.jpg" },
+  
   { name: "johnny-sacramoni", img: "Johnny-Sacramoni.jpg" },
-
+  { name: "johnny-sacramoni", img: "Johnny-Sacramoni.jpg" },
+  
   { name: "livia-soprano", img: "Livia-Soprano.jpg" },
-
+  { name: "livia-soprano", img: "Livia-Soprano.jpg" },
+  
   { name: "meadow-soprano", img: "Meadow-Soprano.jpg" },
-
+  { name: "meadow-soprano", img: "Meadow-Soprano.jpg" },
+  
   { name: "paulie-walnut", img: "Paulie-Walnut.jpg" },
-
+  { name: "paulie-walnut", img: "Paulie-Walnut.jpg" },
+  
   { name: "silvio-dante", img: "Silvio-Dante.jpg" },
-
+  { name: "silvio-dante", img: "Silvio-Dante.jpg" },
+  
+  { name: "sal-bonspensiero", img: "Sal-Bonpensiero.jpg" },
   { name: "sal-bonspensiero", img: "Sal-Bonpensiero.jpg" },
 ];
-
-// Grab the div with a class of root
-
-const game = document.getElementsByClassName("Soprano-Game");
-
-// Create a section with a class of grid
-
-const grid = document.createElement("section");
 
 // Matching the list
 
@@ -76,26 +85,28 @@ function cardsToDom(array) {
   
   for (let i of array) {
     const code = `
-        <div class="Soprano-card">
-          <div class="Back-card">
-              <img class="Soprano_image" src="assets/img/Characters/${i.img}" alt="Characters">
-          </div>
-          <div class="front-card">
-              <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-          </div>
+    <div class="Soprano-card">
+      <div class="Back-card">
+        <img class="Soprano_image" src="assets/img/Characters/${i.img}" alt="Characters">
       </div>
+      <div class="front-card">
+        <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
+      </div>
+    </div>
     `;
-
+    
     container.innerHTML += code;
   }
 }
 
 function init() {
-  let random = shuffleArray(cardsArray)
+  let random = shuffleArray(cardsArray);
   cardsToDom(random);
+
+  let cards = document.querySelectorAll(".Soprano-card");
+  cards.forEach((card) => card.addEventListener("click", flipCard));
 }
 init();
-
 
 
 
