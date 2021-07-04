@@ -86,10 +86,15 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 
 - GitHub pages
 
+
+!(assets/img/Deployment.png)
+
+
 ## Credits
 
 + Code
 -https://dev.to/mugas/flip-cards-with-javascript-2ad0
+
 -https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j#content-3 
 
 + Media
