@@ -89,7 +89,7 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 https://izzysoprano.github.io/MemoryGame/
 
 
-![Deployment(assets/img/Deployment.png)
+![Deployment](assets/img/Deployment.png)
 
 
 ## Credits
