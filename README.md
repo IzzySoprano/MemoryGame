@@ -55,9 +55,10 @@ The images of the game will be characters from the TV show.
 All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-sopranos/cast-and-crew)
 
 
-
-
 ## Wireframes
+
+
+
 
 ## Features
 
@@ -74,7 +75,6 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 
 - Font Awesome
 - Google Fonts
--  
 
 ## Testing
 
@@ -86,8 +86,10 @@ All character images are from [HBO Cast & Crew] (https://www.hbo.com/the-soprano
 
 - GitHub pages
 
+https://izzysoprano.github.io/MemoryGame/
 
-!(assets/img/Deployment.png)
+
+![Deployment(assets/img/Deployment.png)
 
 
 ## Credits
