@@ -12,8 +12,8 @@ body {
 }
 
 /* Music Player - Credit to Traversy Media */
-h1 {
-  color: #fafafa;
+h4 {
+  font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 .music-container {
@@ -82,7 +82,7 @@ h1 {
 .action-btn-big {
   background-color: #fafafa;
   border: 0;
-  color: black;
+  color: #cf2323;
   font-size: 20px;
   cursor: pointer;
   padding: 10px;
@@ -94,7 +94,7 @@ h1 {
 }
 
 .music-info {
-  background-color: #BF55EC;
+  background-color: #cf2323;
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
@@ -127,18 +127,6 @@ h1 {
   width: 0%;
   transition: width 0.1s linear;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Checklist */
