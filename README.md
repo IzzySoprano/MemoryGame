@@ -121,7 +121,7 @@ The cards for the game will hold characters from the TV show. I have selected 20
 
 The Music Player will feature a spinning feature which will resemble a record player.
 
-__Album Artwork__: ![Artwork](https://www.amazon.com/Woke-Up-This-Morning-Alabama/dp/B000000OP7)
+__Album Artwork__: [Artwork](https://www.amazon.com/Woke-Up-This-Morning-Alabama/dp/B000000OP7)
 
 
 ## Audio
