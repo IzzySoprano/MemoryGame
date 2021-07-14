@@ -129,7 +129,7 @@ __Album Artwork__: [Artwork](https://www.amazon.com/Woke-Up-This-Morning-Alabama
 The site will include the intro song added to the game.
 It will include the song, **_Woke Up This Morning by Alabama 3_**
 
-**Download Link** [Woke Up This Morning](https://mp3paw.lol/mp3-download/1418146/Woke-Up-This-Morning)
+**Download Link:** [Woke Up This Morning](https://mp3paw.lol/mp3-download/1418146/Woke-Up-This-Morning)
 
 
 
@@ -142,7 +142,7 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 
 # Resources, Libraries and Tools
 
@@ -159,6 +159,9 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 ## Validation 
 - [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 
+   **Two Erros**
+   ![Errors](assets/img/Testing/HTML-Errors.png)
+
    **Error 1**
    It seems that I have incorrectly added spacing to the file name which is causing the error. I've added dash 
    ![Error 1](assets/img/Testing/Error1.png)
@@ -169,14 +172,14 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 
    **W3 HTML Validator Complete**
    ![W3 Validator Complete](assets/img/Testing/HTML-Validator.png)
-   **Two Erros**
-   ![Errors](assets/img/Testing/HTML-Errors.png)
 
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
    **CSS Validator Complete**
    ![CSS Validator](assets/img/Testing/CSSValidator.png)
 
 - [jshint.com](https://jshint.com/)
+
 **JSHint Validator Complete**
 ![No Errors](assets/img/Testing/JSHint.png)
 
@@ -212,7 +215,7 @@ The project deployment to GitHub Pages is explained in the below steps:
 3.  Scroll down the page until you reach "GitHub Pages" section.
 4.  Under the "Source" sub-section, select "master" branch.
 5.  Click "Save" button.
-6.  The page will refresh. To locate the link to the published site, scroll down again to the "GitHub Pages" section. Your link will be highlighted in the green box per screenshot below.
+6.  The page will refresh. To locate the link to the published site, scroll down again to the "GitHub Pages" section. Your link will be highlighted in the green box.
 
 ![Deployment](assets/img/Deployment/Live.png)
 
