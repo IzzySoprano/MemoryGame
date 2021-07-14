@@ -1,8 +1,24 @@
+/*jshint esversion: 6 */
 // Flipping the cards
 
 function flipCard() {
   this.classList.toggle("flip");
+  const flippedCard = this.id;
+  console.log(flippedCard);
+  if (firstCard) {
+    firstCard = false;
+    flippedCards.push(flippedCard);
+  } else { 
+    setTimeout(match(flippedCard), 1000);
+    flippedCards.forEach((card) => {
+      const cardElement = document.getElementById(card);
+        cardElement.classList.remove("flip");
+        console.log(cardElement.classList);}
+    )
+  };
 }
+
+let firstCard = true;
 
 // Matching the cards
 
@@ -68,14 +84,37 @@ let cardsArray = [
   { name: "sal-bonspensiero", img: "Sal-Bonpensiero.jpg" },
 ];
 
+// function to see if match
+let flippedCards = [];
+
+function match(flippedCard){
+  console.log(flippedCards)
+  firstCard = true;
+  flippedCards.push(flippedCard);
+  console.log(flippedCards)
+  if (flippedCard === flippedCards[0]){
+    console.log("Well done. You found a match");
+  } else {
+    console.log("No match");
+  }
+ }
+
+for (let i = 0; i < flippedCards.length; i++) {
+  console.log(flippedCards[i]);
+}
+// console.log(match);
+
+// Function to see if no match
+
 // Shuffling the cards
 
 let shuffleArray = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const a = Math.floor(Math.random() * (i + 1));
-    [array[i], array[a]] = [array[a], array[i]];
-  }
-  return cardsArray;
+  // for (let i = array.length - 1; i > 0; i--) {
+  //   const a = Math.floor(Math.random() * (i + 1));
+  //   [array[i], array[a]] = [array[a], array[i]];
+  // }
+  // return cardsArray;
+  return array;
 };
 
 function cardsToDom(array) {
@@ -83,13 +122,13 @@ function cardsToDom(array) {
 
   for (let i of array) {
     const code = `
-    <div class="Soprano-card">
-      <div class="Back-card">
-        <img class="Soprano_image" src="assets/img/Characters/${i.img}" alt="Characters">
-      </div>
-      <div class="front-card">
-        <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
-      </div>
+    <div class="Soprano-card" id="${i.img}">
+    <div class="Back-card">
+    <img class="Soprano_image" src="assets/img/Characters/${i.img}" alt="Characters">
+    </div>
+    <div class="front-card">
+    <img class="Soprano_image" src="assets/img/Sopranos-Title.jpg" alt="Sopranos-Title">
+    </div>
     </div>
     `;
 
@@ -103,6 +142,7 @@ function init() {
 
   let cards = document.querySelectorAll(".Soprano-card");
   cards.forEach((card) => card.addEventListener("click", flipCard));
+  // match();
 }
 init();
 
@@ -110,15 +150,9 @@ init();
 
 const musicContainer = document.querySelector(".music-container");
 const playBtn = document.querySelector("#play");
-const prevBtn = document.querySelector("#prev");
-const nextBtn = document.querySelector("#next");
 const audio = document.querySelector("#audio");
 const progress = document.querySelector(".progress");
 const progressContainer = document.querySelector(".progress-container");
-const title = document.querySelector("#title");
-const cover = document.querySelector("#cover");
-
-const songs = ["woke up this morning"];
 
 function playSong() {
   musicContainer.classList.add("play");
@@ -145,12 +179,12 @@ function updateProgress(e) {
 function setProgress(e) {
   const width = this.clientWidth;
   const clickX = e.offsetX;
-  const duration = audio.duration
+  const duration = audio.duration;
 
-  audio.currentTime = (clickX / width) * duration
+  audio.currentTime = (clickX / width) * duration;
 }
 
-// Event Lisetners
+// Event Listeners
 
 playBtn.addEventListener("click", () => {
   const isPlaying = musicContainer.classList.contains("play");
@@ -163,7 +197,6 @@ playBtn.addEventListener("click", () => {
 });
 
 // Progress Bar
-
 audio.addEventListener("timeupdate", updateProgress);
 
 progressContainer.addEventListener("click", setProgress);
