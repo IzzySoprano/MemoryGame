@@ -140,7 +140,7 @@ h4 {
 .list {
   display: flex;
   position: sticky;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -148,8 +148,9 @@ ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  position: sticky;
+  position:relative;
   justify-content: space-between;
+  left: 4px;
 }
 
 
