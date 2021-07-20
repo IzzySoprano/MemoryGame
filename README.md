@@ -5,7 +5,7 @@ View the live project here - https://izzysoprano.github.io/MemoryGame/
 1. [Overview](#Overview)
 2. [User Experience](#UX-(UserExperience))
 
-   - [User Stories](##UserStories)
+   - [User Stories](## UserStories)
 
    - First Time Visitor Goals
    - Returning Visitor Goals
@@ -131,8 +131,6 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 
 **Download Link:** [Woke Up This Morning](https://mp3paw.lol/mp3-download/1418146/Woke-Up-This-Morning)
 
-
-
 # Features
 
 - Interactive Card Matching Game
@@ -189,11 +187,17 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 
 
 
+
+
 - **Device Testing**
 
 
 
 ## Known Bugs
+
+A bug occured towards the end of my proj in which at some point in the game, a match or a flip would be broken.
+
+![](assets/img/Bugs/Bug.png)
 
 
 
