@@ -11,9 +11,9 @@ View the live project here - https://izzysoprano.github.io/MemoryGame/
    - Returning Visitor Goals
    - Developer Goals
 
-   - [## Structure](##Structure)
-   - [## Skeleton](##Skeleton)
-   - [## Wireframes](##Wireframes)
+   - [Structure](##Structure)
+   - [Skeleton](##Skeleton)
+   - [Wireframes](##Wireframes)
 
 3. [Design](#Design)
 
