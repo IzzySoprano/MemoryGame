@@ -3,9 +3,9 @@
 View the live project here - https://izzysoprano.github.io/MemoryGame/
 
 1. [Overview](#Overview)
-2. [User Experience](#UX-(UserExperience))
+2. [#User Experience](#UX-(UserExperience))
 
-   - [User Stories](## UserStories)
+   - [User Stories](##UserStories)
 
    - First Time Visitor Goals
    - Returning Visitor Goals
