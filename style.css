@@ -135,35 +135,6 @@ h4 {
 }
 
 
-/* Checklist */
-
-.list {
-  display: flex;
-  position: sticky;
-  flex-direction: row;
-  align-items: center;
-}
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  position:relative;
-  justify-content: space-between;
-  left: 4px;
-}
-
-
-li {
-  font-family: 'Big Shoulders Stencil Display', cursive;
-  font-weight: 500;
-  font-size: 20px;
-  color: #fafafa;
-  list-style-type: none;
-  margin: 2px;
-  padding: 2px;
-}
-
 /* Board */
 .Soprano-game {
   display: grid;
