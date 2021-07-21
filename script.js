@@ -2,15 +2,28 @@
 
 // Flipping the cards
 function flipCard() {
+  if (flipping) {
+    return;
+  }
+  flipping = true;
   this.classList.toggle("flip");
   const flippedCard = this.id;
   if (firstCard) {
     firstCard = false;
     flippedCards.push(flippedCard);
+    flipping = false;
   } else {
-    setTimeout(match(flippedCard), 1000);
+    if (flippedCard === flippedCards[0]) {
+      firstCard = true;
+      flippedCards = [];
+      flipping = false;
+      return;
+    } else {
+      setTimeout(match(flippedCard), 1000);
+    }
   }
 }
+
 let firstCard = true;
 
 // Matching the cards
@@ -76,6 +89,8 @@ let cardsArray = [
   { name: "sal-bonspensiero2", img: "Sal-Bonpensiero.jpg" },
 ];
 
+let flipping = false;
+
 // Function to see if cards match
 let flippedCards = [];
 function match(flippedCard) {
@@ -92,35 +107,29 @@ function match(flippedCard) {
       const cardElement = document.getElementById(card);
       cardElement.removeEventListener("click", flipCard);
     });
+    firstCard = true;
     flippedCards = [];
+    flipping = false;
   } else {
     setTimeout(() => {
       flippedCards.forEach((card) => {
         const cardElement = document.getElementById(card);
         cardElement.classList.remove("flip");
       });
+      firstCard = true;
       flippedCards = [];
+      flipping = false;
     }, 1000);
   }
 }
-for (let i = 0; i < flippedCards.length; i++) {}
+
 // Shuffling the cards
 let shuffleArray = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const a = Math.floor(Math.random() * (i + 1));
-    [array[i], array[a]] = [array[a], array[i]];
-  }
+  // for (let i = array.length - 1; i > 0; i--) {
+  //   const a = Math.floor(Math.random() * (i + 1));
+  //   [array[i], array[a]] = [array[a], array[i]];
+  // }
   return cardsArray;
-  return array;
-};
-
-// Score board
-
-let button = document.getElementById("Score"),
-  count = 0;
-button.onclick = function() {
-  count += 1;
-  button.innerHTML = "Flips" + count;
 };
 
 // Function that will render my cards
@@ -179,6 +188,7 @@ function setProgress(e) {
   const duration = audio.duration;
   audio.currentTime = (clickX / width) * duration;
 }
+
 // Event Listeners
 playBtn.addEventListener("click", () => {
   const isPlaying = musicContainer.classList.contains("play");
@@ -188,6 +198,7 @@ playBtn.addEventListener("click", () => {
     playSong();
   }
 });
+
 // Progress Bar
 audio.addEventListener("timeupdate", updateProgress);
 progressContainer.addEventListener("click", setProgress);
