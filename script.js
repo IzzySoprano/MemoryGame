@@ -125,10 +125,10 @@ function match(flippedCard) {
 
 // Shuffling the cards
 let shuffleArray = (array) => {
-  // for (let i = array.length - 1; i > 0; i--) {
-  //   const a = Math.floor(Math.random() * (i + 1));
-  //   [array[i], array[a]] = [array[a], array[i]];
-  // }
+  for (let i = array.length - 1; i > 0; i--) {
+    const a = Math.floor(Math.random() * (i + 1));
+    [array[i], array[a]] = [array[a], array[i]];
+  }
   return cardsArray;
 };
 
