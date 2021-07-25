@@ -6,21 +6,19 @@ View the live project here - https://izzysoprano.github.io/MemoryGame/
 2. [User Experience](#UX-(UserExperience))
 
    - [User Stories](##UserStories)
-
-   - First Time Visitor Goals
-   - Returning Visitor Goals
-   - Developer Goals
+      - First Time Visitor Goals
+      - Returning Visitor Goals
+      - Developer Goals
 
    - [Structure](##Structure)
    - [Skeleton](##Skeleton)
    - [Wireframes](##Wireframes)
 
 3. [Design](#Design)
-
-   - Colour Scheme
-   - Fonts
-   - Imagery
-   - Audio
+      - Colour Scheme
+      - Fonts
+      - Imagery
+      - Audio
 
 4. [Features](#Features)
 
@@ -100,26 +98,26 @@ For the character checklist, I decided to use Big Shoulder Stencil from [Google 
 
 The cards for the game will hold characters from the TV show. I have selected 20 characters from the show as the front of the card.
 
--[Adriana La Cerva](https://www.hbo.com/the-sopranos/cast-and-crew/adriana-la-cerva)
--[Anthony Soprano Jr](https://www.hbo.com/the-sopranos/cast-and-crew/anthony-soprano-jr)
--[Artie Bucco](https://www.hbo.com/the-sopranos/cast-and-crew/artie-bucco)
--[Bobby Baccalieri](https://www.hbo.com/the-sopranos/cast-and-crew/bobby-bacala-baccalieri)
--[Carmela Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/carmela-soprano)
--[Carmine Lupertazzi](https://www.hbo.com/the-sopranos/cast-and-crew/carmine-lupertazzi)
--[Christopher Moltisanti](https://www.hbo.com/the-sopranos/cast-and-crew/christopher-moltisanti)
--[Corrado Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/corrado-junior-soprano)
--[Dr. Elliot Kupferberg](https://www.hbo.com/the-sopranos/cast-and-crew/dr-elliot-kupferberg)
--[Dr. Jennifer Melfi](https://www.hbo.com/the-sopranos/cast-and-crew/dr-jennifer-melfi)
--[Gloria Trillo](https://www.hbo.com/the-sopranos/cast-and-crew/gloria-trillo)
--[Hesh Rabkin](https://www.hbo.com/the-sopranos/cast-and-crew/hesh-rabkin)
--[Janice Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/janice-soprano)
--[Johnny Sacramoni](https://www.hbo.com/the-sopranos/cast-and-crew/johnny-sack-sacramoni)
--[Livia Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/livia-soprano)
--[Meadow Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/meadow-soprano)
--[Paulie Walnut](https://www.hbo.com/the-sopranos/cast-and-crew/paulie-walnuts)
--[Sal Bonpensiero](https://www.hbo.com/the-sopranos/cast-and-crew/sal-big-pussy-bonpensiero)
--[Silvio Dante](https://www.hbo.com/the-sopranos/cast-and-crew/silvio-dante)
--[Tony Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/tony-soprano)
+- [Adriana La Cerva](https://www.hbo.com/the-sopranos/cast-and-crew/adriana-la-cerva)
+- [Anthony Soprano Jr](https://www.hbo.com/the-sopranos/cast-and-crew/anthony-soprano-jr)
+- [Artie Bucco](https://www.hbo.com/the-sopranos/cast-and-crew/artie-bucco)
+- [Bobby Baccalieri](https://www.hbo.com/the-sopranos/cast-and-crew/bobby-bacala-baccalieri)
+- [Carmela Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/carmela-soprano)
+- [Carmine Lupertazzi](https://www.hbo.com/the-sopranos/cast-and-crew/carmine-lupertazzi)
+- [Christopher Moltisanti](https://www.hbo.com/the-sopranos/cast-and-crew/christopher-moltisanti)
+- [Corrado Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/corrado-junior-soprano)
+- [Dr. Elliot Kupferberg](https://www.hbo.com/the-sopranos/cast-and-crew/dr-elliot-kupferberg)
+- [Dr. Jennifer Melfi](https://www.hbo.com/the-sopranos/cast-and-crew/dr-jennifer-melfi)
+- [Gloria Trillo](https://www.hbo.com/the-sopranos/cast-and-crew/gloria-trillo)
+- [Hesh Rabkin](https://www.hbo.com/the-sopranos/cast-and-crew/hesh-rabkin)
+- [Janice Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/janice-soprano)
+- [Johnny Sacramoni](https://www.hbo.com/the-sopranos/cast-and-crew/johnny-sack-sacramoni)
+- [Livia Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/livia-soprano)
+- [Meadow Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/meadow-soprano)
+- [Paulie Walnut](https://www.hbo.com/the-sopranos/cast-and-crew/paulie-walnuts)
+- [Sal Bonpensiero](https://www.hbo.com/the-sopranos/cast-and-crew/sal-big-pussy-bonpensiero)
+- [Silvio Dante](https://www.hbo.com/the-sopranos/cast-and-crew/silvio-dante)
+- [Tony Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/tony-soprano)
 
 The Music Player will feature a spinning feature which will resemble a record player.
 
