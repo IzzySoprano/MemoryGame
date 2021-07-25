@@ -49,13 +49,14 @@ Developed and designed as part of Milestone Project 2: Interactive Frontend Deve
 ### First time Visitor Goals
 
 - As a first time visitor, I would like to play a simple card-matching game inspired by the theme of The Sopranos.
-- As a first time visitor, I would like to play/pause the theme song of the show.
-- As a first time visitor, I would like the game to be responsible on all devices.
-- As a first time visitor, I want to be familiar with the character names.
+- As a first time visitor, I would like to play/pause music whilst playing the game.
+- As a first time visitor, I would like the game to be responsible on all mobile, tablet and browser devices.
+- As a first time visitor, I would like to be encouraged to watch the show after playing the game.
 
 ### Returning Vistor Goals
 
-As a returning visitor, I would like to play a game that challenges my memory
+-As a returning visitor, I would like to play a game that challenges my memory.
+-As a returning visitor, I would like to be familiar with the TV shows characters.
 
 ### Developer Goals
 
@@ -66,16 +67,17 @@ As a returning visitor, I would like to play a game that challenges my memory
 
 ## Structure 
 
-
-
+- A simple one page design will be used for the website to maintain a clean easy to navigate UX.
+- The site will display all 40 cards in a 4x10 grid with the interactive music player being displayed at the top of the page.
+- The site will be fully responsive on all browser, mobile and tablet devices.
 
 ## Skeleton
 
-
-
-
 ## Wireframes
 
+View the wireframes for desktop, tablet and mobile devices on the following pdf.
+
+[Wireframe](assets/Wireframe.pdf)
 
 # Design
 
@@ -98,31 +100,30 @@ For the character checklist, I decided to use Big Shoulder Stencil from [Google 
 
 The cards for the game will hold characters from the TV show. I have selected 20 characters from the show as the front of the card.
 
-*[Adriana La Cerva](https://www.hbo.com/the-sopranos/cast-and-crew/adriana-la-cerva)
-*[Anthony Soprano Jr](https://www.hbo.com/the-sopranos/cast-and-crew/anthony-soprano-jr)
-*[Artie Bucco](https://www.hbo.com/the-sopranos/cast-and-crew/artie-bucco)
-*[Bobby Baccalieri](https://www.hbo.com/the-sopranos/cast-and-crew/bobby-bacala-baccalieri)
-*[Carmela Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/carmela-soprano)
-*[Carmine Lupertazzi](https://www.hbo.com/the-sopranos/cast-and-crew/carmine-lupertazzi)
-*[Christopher Moltisanti](https://www.hbo.com/the-sopranos/cast-and-crew/christopher-moltisanti)
-*[Corrado Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/corrado-junior-soprano)
-*[Dr. Elliot Kupferberg](https://www.hbo.com/the-sopranos/cast-and-crew/dr-elliot-kupferberg)
-*[Dr. Jennifer Melfi](https://www.hbo.com/the-sopranos/cast-and-crew/dr-jennifer-melfi)
-*[Gloria Trillo](https://www.hbo.com/the-sopranos/cast-and-crew/gloria-trillo)
-*[Hesh Rabkin](https://www.hbo.com/the-sopranos/cast-and-crew/hesh-rabkin)
-*[Janice Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/janice-soprano)
-*[Johnny Sacramoni](https://www.hbo.com/the-sopranos/cast-and-crew/johnny-sack-sacramoni)
-*[Livia Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/livia-soprano)
-*[Meadow Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/meadow-soprano)
-*[Paulie Walnut](https://www.hbo.com/the-sopranos/cast-and-crew/paulie-walnuts)
-*[Sal Bonpensiero](https://www.hbo.com/the-sopranos/cast-and-crew/sal-big-pussy-bonpensiero)
-*[Silvio Dante](https://www.hbo.com/the-sopranos/cast-and-crew/silvio-dante)
-*[Tony Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/tony-soprano)
+-[Adriana La Cerva](https://www.hbo.com/the-sopranos/cast-and-crew/adriana-la-cerva)
+-[Anthony Soprano Jr](https://www.hbo.com/the-sopranos/cast-and-crew/anthony-soprano-jr)
+-[Artie Bucco](https://www.hbo.com/the-sopranos/cast-and-crew/artie-bucco)
+-[Bobby Baccalieri](https://www.hbo.com/the-sopranos/cast-and-crew/bobby-bacala-baccalieri)
+-[Carmela Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/carmela-soprano)
+-[Carmine Lupertazzi](https://www.hbo.com/the-sopranos/cast-and-crew/carmine-lupertazzi)
+-[Christopher Moltisanti](https://www.hbo.com/the-sopranos/cast-and-crew/christopher-moltisanti)
+-[Corrado Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/corrado-junior-soprano)
+-[Dr. Elliot Kupferberg](https://www.hbo.com/the-sopranos/cast-and-crew/dr-elliot-kupferberg)
+-[Dr. Jennifer Melfi](https://www.hbo.com/the-sopranos/cast-and-crew/dr-jennifer-melfi)
+-[Gloria Trillo](https://www.hbo.com/the-sopranos/cast-and-crew/gloria-trillo)
+-[Hesh Rabkin](https://www.hbo.com/the-sopranos/cast-and-crew/hesh-rabkin)
+-[Janice Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/janice-soprano)
+-[Johnny Sacramoni](https://www.hbo.com/the-sopranos/cast-and-crew/johnny-sack-sacramoni)
+-[Livia Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/livia-soprano)
+-[Meadow Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/meadow-soprano)
+-[Paulie Walnut](https://www.hbo.com/the-sopranos/cast-and-crew/paulie-walnuts)
+-[Sal Bonpensiero](https://www.hbo.com/the-sopranos/cast-and-crew/sal-big-pussy-bonpensiero)
+-[Silvio Dante](https://www.hbo.com/the-sopranos/cast-and-crew/silvio-dante)
+-[Tony Soprano](https://www.hbo.com/the-sopranos/cast-and-crew/tony-soprano)
 
 The Music Player will feature a spinning feature which will resemble a record player.
 
 __Album Artwork__: [Artwork](https://www.amazon.com/Woke-Up-This-Morning-Alabama/dp/B000000OP7)
-
 
 ## Audio
 
@@ -185,6 +186,7 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 
 - **Performace Testing**
 
+[Performance Testing](assets/img/Testing/Lighthouse.png)
 
 
 
@@ -193,15 +195,17 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 
 
 
+
 ## Known Bugs
 
-A bug occured towards the end of my proj in which at some point in the game, a match or a flip would be broken.
+A bug occured towards the end of my project in which at some point in the game, a match or a flip would be broken as shown below.
 
-![](assets/img/Bugs/Bug.png)
+[Bug](assets/img/Bugs/Bug.png)
 
+I realised a reset wasn't being completed after the second card had been flipped, as the browser was checking to see if a match had been made after the first card had been clicked.
 
-
-
+To solve this problem, I had to figure out a way to reset my array of flipped cards and reset my first card boolean after the first card had been clicked.
+I declared a new variable that would be used to determine if the process of checking for a match should take place. The variable would then need to be set to true at the start of a flip and then reset back to false at the end of the process. It needed to be set to true at the start of a flip and then reset back to false at the end of the process in order to prevent the browser from checking if a match had been made after the first click.
 
 # Deployment
 
@@ -210,7 +214,7 @@ The project deployment to GitHub Pages is explained in the below steps:
 
 1.  Sign in to GitHub, locate and select [Memory game](https://github.com/IzzySoprano/MemoryGame) from the list of repositories.
 
-![Repo](assets/img/Deployment/Repository.png)
+![Repo](assets/img/Deployment/Repo.png)
 
 2.  At the top of the Repository page, under the sub-headings, click "Settings" button
 
