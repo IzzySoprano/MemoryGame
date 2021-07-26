@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-// Flipping the cards
+// Flipping the cards - Credit goes to Ricardo Moreira
 function flipCard() {
   if (flipping) {
     return;
@@ -91,7 +91,7 @@ let cardsArray = [
 
 let flipping = false;
 
-// Function to see if cards match
+// Function to see if cards match - credit goes to Fakorede Damilola 
 let flippedCards = [];
 function match(flippedCard) {
   firstCard = true;
