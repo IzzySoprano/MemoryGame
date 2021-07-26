@@ -1,6 +1,6 @@
 # Table of Contents
 
-View the live project here - https://izzysoprano.github.io/MemoryGame/
+View the live project here - https://izzysoprano.github.io/SopranoMemoryGame/
 
 1. [Overview](#Overview)
 2. [User Experience](#UX-(UserExperience))
@@ -48,7 +48,7 @@ Developed and designed as part of Milestone Project 2: Interactive Frontend Deve
 
 - As a first time visitor, I would like to play a simple card-matching game inspired by the theme of The Sopranos.
 - As a first time visitor, I would like to play/pause music whilst playing the game.
-- As a first time visitor, I would like the game to be responsible on all mobile, tablet and browser devices.
+- As a first time visitor, I would like the game to be responsible on browsers, all mobile and tablets.
 - As a first time visitor, I would like to be encouraged to watch the show after playing the game.
 
 ### Returning Vistor Goals
@@ -92,7 +92,7 @@ Each card will be blended into the black background, as the back of the card whi
 
 ## Fonts
 
-For the character checklist, I decided to use Big Shoulder Stencil from [Google Fonts](https://fonts.google.com/) as I felt it was a close match to the main title.
+No fonts will be added to the game.
 
 ## Imagery
 
@@ -152,6 +152,7 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 - [Git](https://git-scm.com/) 
 - [Markdown guide](https://www.markdownguide.org/basic-syntax/)
 - [HBO Cast & Crew](https://www.hbo.com/the-sopranos/cast-and-crew)
+- [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 
 ## Validation 
 - [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
@@ -182,17 +183,27 @@ It will include the song, **_Woke Up This Morning by Alabama 3_**
 
 # Testing
 
-- **Performace Testing**
+- ### **Performace Testing**
 
 [Performance Testing](assets/img/Testing/Lighthouse.png)
 
+- ### **Device Testing**
 
+For all my media queries, I used tutor support, and CSS **[A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)** in getting my site responsive for all devices
 
+The website was tested on the following devices:
 
-- **Device Testing**
+**Browser**
+   - Dell XPS 
 
+**Mobile**
+   -iPhone 8 / 8 Plus / X / 12
 
+**Tablet**
+   -iPad
+   -iPad Pro
 
+- Dev Tools was used to test the responsiveness on other devices
 
 ## Known Bugs
 
@@ -210,7 +221,7 @@ I declared a new variable that would be used to determine if the process of chec
 **GitHub pages**
 The project deployment to GitHub Pages is explained in the below steps:
 
-1.  Sign in to GitHub, locate and select [Memory game](https://github.com/IzzySoprano/MemoryGame) from the list of repositories.
+1.  Sign in to GitHub, locate and select [Soprano Memory game](https://github.com/IzzySoprano/SopranoMemoryGame) from the list of repositories.
 
 ![Repo](assets/img/Deployment/Repo.png)
 
@@ -229,17 +240,17 @@ The project deployment to GitHub Pages is explained in the below steps:
 
 ### Code
 
--[Flip Cards with Javascript](https://dev.to/mugas/flip-cards-with-javascript-2ad0)
+   - [Flip Cards with Javascript](https://dev.to/mugas/flip-cards-with-javascript-2ad0)
 
--[Create a Memory Game with JavaScript](https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j#content-3)
+   - [Create a Memory Game with JavaScript](https://dev.to/fakorededamilola/create-a-memory-game-with-js-1l9j#content-3)
 
 ### Media
 
--[Build a Music Player | Vanilla Javascript by Traversy Media](https://www.youtube.com/watch?v=QTHRWGn_sJw&ab_channel=TraversyMedia)
+   [Build a Music Player | Vanilla Javascript by Traversy Media](https://www.youtube.com/watch?v=QTHRWGn_sJw&ab_channel=TraversyMedia)
 
 ### Books
 
-- **JavaScript and Jquery** by __Jon Duckett__
+**JavaScript and Jquery** by __Jon Duckett__
 
 ### Acknowledgements
 
