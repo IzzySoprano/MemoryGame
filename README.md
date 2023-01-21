@@ -1,7 +1,5 @@
 # Table of Contents
 
-View the live project here - https://izzysoprano.github.io/SopranoMemoryGame/
-
 1. [Overview](#Overview)
 2. [User Experience](#UX-(UserExperience))
 
