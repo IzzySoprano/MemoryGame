@@ -171,6 +171,7 @@ h4 {
   width: 100%;
   height: inherit;
   top: 40px;
+  z-index: 2;
 }  
 
 @media (min-width: 500px) {
